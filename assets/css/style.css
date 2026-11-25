@@ -99,3 +99,19 @@ h1,h2,h3 {
 .hero_odkaz:hover{
     background-color: rgb(135, 88, 0);
 }
+
+
+.dovody__nadpis {
+    text-align: center;
+}
+
+.vyhody {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.vyhoda {
+    background-color: var(--pozadie-biela);
+    padding: var(--medzera-m);
+    box-shadow: 0, 2px, 8px;
+}

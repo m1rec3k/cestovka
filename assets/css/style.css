@@ -72,3 +72,30 @@ h1,h2,h3 {
 .navigacia_polozka:hover {
     background-color: var(--primarna-tmava);
 }
+
+.hero{
+    background: linear-gradient(135deg, var(--primarna), var(--primarna-tmava));
+    padding: var(--medzera-m);
+}
+
+.hero_nadpis{
+    margin-bottom: var(--medzera-m);
+    font-size: 2rem;
+}
+
+.hero_odstavec{
+    font-size: 1.125rem;
+    margin-bottom: var(--medzera-l);
+}
+
+.hero_odkaz{
+    background-color: var(--akcent);
+    padding: .75rem var(--medzera-m);
+    border-radius: 6px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.hero_odkaz:hover{
+    background-color: rgb(135, 88, 0);
+}
